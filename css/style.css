@@ -1,0 +1,39 @@
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/footer.css");
+@import url("./components/header.css");
+
+body {
+    margin: 0;
+    font-family: Perpetua, Arial, sans-serif;
+    background-image: url("../img/old_board.avif");
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+
+main{
+    color: rgb(109, 100, 35);
+    -webkit-text-stroke-width: 1px;
+    font-size: 2em;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+.hero {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}

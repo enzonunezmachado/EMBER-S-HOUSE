@@ -5,20 +5,19 @@
 
 body {
     margin: 0;
-    font-family: Perpetua, Arial, sans-serif;
-    background-image: url("../img/old_board.avif");
+
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #000000;
+    background-color: #3d3d3d;
 }
 
 main{
-    color: rgb(109, 100, 35);
+    color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 1px;
-    font-size: 2em;
-    padding: 40px;
+    font-size: 1em;
+    padding: 0%;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -36,4 +35,11 @@ main{
     height: 100vh;
     align-items: center;
     justify-content: center;
+}
+
+.manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
